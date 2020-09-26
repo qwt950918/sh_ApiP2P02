@@ -1,0 +1,135 @@
+2020-09-26 09:27:50,481 INFO [root] [api_reg_login.py (__init__:9] - 初始化session对象： <requests.sessions.Session object at 0x10e913668>
+2020-09-26 09:27:50,483 INFO [root] [api_reg_login.py (api_img_code:29] - 正在调用注册获取图片验证码接口 请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/112312312
+2020-09-26 09:27:51,626 INFO [root] [api_reg_login.py (api_sms_code:40] - 正在调用注册获取「手机」验证码接口 请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': 8888, 'type': 'reg'}
+2020-09-26 09:27:51,687 INFO [root] [api_reg_login.py (api_register:55] - 正在调用注册接口 请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001111', 'password': 'q123456', 'verifycode': 8888, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': None}
+2020-09-26 09:27:51,751 INFO [root] [test05_trust_all.py (test01_all:33] - 注册业务结果为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2020-09-26 09:27:51,752 INFO [root] [api_reg_login.py (api_login:66] - 正在调用登录接口 请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '1360001111', 'password': 'q123456'}
+2020-09-26 09:27:51,797 INFO [root] [test05_trust_all.py (test01_all:38] - 登录业务结果为：{'status': 100, 'description': '用户不存在'}
+2020-09-26 09:28:54,828 INFO [root] [api_reg_login.py (__init__:9] - 初始化session对象： <requests.sessions.Session object at 0x10e912630>
+2020-09-26 09:28:54,829 INFO [root] [api_reg_login.py (api_img_code:29] - 正在调用注册获取图片验证码接口 请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/112312312
+2020-09-26 09:28:54,936 INFO [root] [api_reg_login.py (api_sms_code:40] - 正在调用注册获取「手机」验证码接口 请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': 8888, 'type': 'reg'}
+2020-09-26 09:28:54,992 INFO [root] [api_reg_login.py (api_register:55] - 正在调用注册接口 请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001111', 'password': 'q123456', 'verifycode': 8888, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': None}
+2020-09-26 09:28:55,062 INFO [root] [test05_trust_all.py (test01_all:33] - 注册业务结果为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2020-09-26 09:28:55,062 INFO [root] [api_reg_login.py (api_login:66] - 正在调用登录接口 请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'q123456'}
+2020-09-26 09:28:55,126 INFO [root] [test05_trust_all.py (test01_all:38] - 登录业务结果为：{'status': 200, 'description': '登录成功'}
+2020-09-26 09:32:54,273 INFO [root] [api_reg_login.py (__init__:9] - 初始化session对象： <requests.sessions.Session object at 0x10e917160>
+2020-09-26 09:32:54,273 INFO [root] [api_reg_login.py (api_img_code:29] - 正在调用注册获取图片验证码接口 请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/112312312
+2020-09-26 09:32:54,378 INFO [root] [api_reg_login.py (api_sms_code:40] - 正在调用注册获取「手机」验证码接口 请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': 8888, 'type': 'reg'}
+2020-09-26 09:32:54,442 INFO [root] [api_reg_login.py (api_register:55] - 正在调用注册接口 请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001111', 'password': 'q123456', 'verifycode': 8888, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': None}
+2020-09-26 09:32:54,510 INFO [root] [test05_trust_all.py (test01_all:33] - 注册业务结果为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2020-09-26 09:32:54,510 INFO [root] [api_reg_login.py (api_login:66] - 正在调用登录接口 请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'q123456'}
+2020-09-26 09:32:54,566 INFO [root] [test05_trust_all.py (test01_all:38] - 登录业务结果为：{'status': 200, 'description': '登录成功'}
+2020-09-26 09:33:46,715 INFO [root] [api_reg_login.py (__init__:9] - 初始化session对象： <requests.sessions.Session object at 0x10e11a160>
+2020-09-26 09:33:46,715 INFO [root] [api_reg_login.py (api_img_code:29] - 正在调用注册获取图片验证码接口 请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/112312312
+2020-09-26 09:33:46,829 INFO [root] [api_reg_login.py (api_sms_code:40] - 正在调用注册获取「手机」验证码接口 请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': 8888, 'type': 'reg'}
+2020-09-26 09:33:46,885 INFO [root] [api_reg_login.py (api_register:55] - 正在调用注册接口 请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001111', 'password': 'q123456', 'verifycode': 8888, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': None}
+2020-09-26 09:33:46,953 INFO [root] [test05_trust_all.py (test01_all:33] - 注册业务结果为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2020-09-26 09:33:46,953 INFO [root] [api_reg_login.py (api_login:66] - 正在调用登录接口 请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'q123456'}
+2020-09-26 09:33:47,012 INFO [root] [test05_trust_all.py (test01_all:38] - 登录业务结果为：{'status': 200, 'description': '登录成功'}
+2020-09-26 09:33:47,234 INFO [root] [test05_trust_all.py (test01_all:43] - 开户业务结果为：UserRegister OK
+2020-09-26 09:33:47,504 INFO [root] [test05_trust_all.py (test01_all:48] - 充值业务结果为：NetSave OK
+2020-09-26 09:33:47,734 INFO [root] [test05_trust_all.py (test01_all:53] - 投资业务结果为：InitiativeTender OK
+2020-09-26 09:36:40,617 INFO [root] [api_reg_login.py (__init__:9] - 初始化session对象： <requests.sessions.Session object at 0x10e918128>
+2020-09-26 09:36:40,617 INFO [root] [api_reg_login.py (api_img_code:29] - 正在调用注册获取图片验证码接口 请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/112312312
+2020-09-26 09:36:40,720 INFO [root] [api_reg_login.py (api_sms_code:40] - 正在调用注册获取「手机」验证码接口 请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': 8888, 'type': 'reg'}
+2020-09-26 09:36:40,776 INFO [root] [api_reg_login.py (api_register:55] - 正在调用注册接口 请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001111', 'password': 'q123456', 'verifycode': 8888, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': None}
+2020-09-26 09:36:40,854 INFO [root] [test05_trust_all.py (test01_all:33] - 注册业务结果为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2020-09-26 09:36:40,855 INFO [root] [api_reg_login.py (api_login:66] - 正在调用登录接口 请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'q123456'}
+2020-09-26 09:36:40,911 INFO [root] [test05_trust_all.py (test01_all:40] - 登录业务结果为：{'status': 200, 'description': '登录成功'}
+2020-09-26 09:36:41,112 INFO [root] [test05_trust_all.py (test01_all:46] - 开户业务结果为：UserRegister OK
+2020-09-26 09:36:41,378 INFO [root] [test05_trust_all.py (test01_all:52] - 充值业务结果为：NetSave OK
+2020-09-26 09:36:41,606 INFO [root] [test05_trust_all.py (test01_all:58] - 投资业务结果为：InitiativeTender OK
+2020-09-26 10:22:22,156 INFO [root] [tools.py (clear_test_data:106] - sql执行结果：0
+2020-09-26 10:22:22,404 INFO [root] [tools.py (clear_test_data:111] - sql执行结果：0
+2020-09-26 10:22:22,674 INFO [root] [tools.py (clear_test_data:116] - sql执行结果：0
+2020-09-26 10:22:22,932 INFO [root] [tools.py (clear_test_data:121] - sql执行结果：0
+2020-09-26 10:23:15,672 INFO [root] [tools.py (clear_test_data:105] - sql执行结果：0
+2020-09-26 10:23:15,910 INFO [root] [tools.py (clear_test_data:110] - sql执行结果：0
+2020-09-26 10:23:16,164 INFO [root] [tools.py (clear_test_data:115] - sql执行结果：0
+2020-09-26 10:23:16,435 INFO [root] [tools.py (clear_test_data:120] - sql执行结果：0
+2020-09-26 10:23:16,435 INFO [root] [api_reg_login.py (__init__:9] - 初始化session对象： <requests.sessions.Session object at 0x10eb9a550>
+2020-09-26 10:23:16,435 INFO [root] [api_reg_login.py (api_img_code:29] - 正在调用注册获取图片验证码接口 请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/112312312
+2020-09-26 10:23:16,574 INFO [root] [api_reg_login.py (api_sms_code:40] - 正在调用注册获取「手机」验证码接口 请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': 8888, 'type': 'reg'}
+2020-09-26 10:23:16,629 INFO [root] [api_reg_login.py (api_register:55] - 正在调用注册接口 请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001111', 'password': 'q123456', 'verifycode': 8888, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': None}
+2020-09-26 10:23:16,693 INFO [root] [test05_trust_all.py (test01_all:36] - 注册业务结果为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2020-09-26 10:23:16,693 INFO [root] [api_reg_login.py (api_login:66] - 正在调用登录接口 请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'q123456'}
+2020-09-26 10:23:16,748 INFO [root] [test05_trust_all.py (test01_all:43] - 登录业务结果为：{'status': 200, 'description': '登录成功'}
+2020-09-26 10:23:17,001 INFO [root] [test05_trust_all.py (test01_all:49] - 开户业务结果为：UserRegister OK
+2020-09-26 10:23:17,254 INFO [root] [test05_trust_all.py (test01_all:55] - 充值业务结果为：NetSave OK
+2020-09-26 10:23:17,483 INFO [root] [test05_trust_all.py (test01_all:61] - 投资业务结果为：InitiativeTender OK
+2020-09-26 10:23:17,770 INFO [root] [tools.py (clear_test_data:105] - sql执行结果：0
+2020-09-26 10:23:18,027 INFO [root] [tools.py (clear_test_data:110] - sql执行结果：0
+2020-09-26 10:23:18,298 INFO [root] [tools.py (clear_test_data:115] - sql执行结果：0
+2020-09-26 10:23:18,566 INFO [root] [tools.py (clear_test_data:120] - sql执行结果：0
+2020-09-26 10:23:24,389 INFO [root] [tools.py (clear_test_data:105] - sql执行结果：0
+2020-09-26 10:23:24,677 INFO [root] [tools.py (clear_test_data:110] - sql执行结果：0
+2020-09-26 10:23:24,912 INFO [root] [tools.py (clear_test_data:115] - sql执行结果：0
+2020-09-26 10:23:25,141 INFO [root] [tools.py (clear_test_data:120] - sql执行结果：0
+2020-09-26 10:23:25,141 INFO [root] [api_reg_login.py (__init__:9] - 初始化session对象： <requests.sessions.Session object at 0x10ea19eb8>
+2020-09-26 10:23:25,141 INFO [root] [api_reg_login.py (api_img_code:29] - 正在调用注册获取图片验证码接口 请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/112312312
+2020-09-26 10:23:25,244 INFO [root] [api_reg_login.py (api_sms_code:40] - 正在调用注册获取「手机」验证码接口 请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': 8888, 'type': 'reg'}
+2020-09-26 10:23:25,298 INFO [root] [api_reg_login.py (api_register:55] - 正在调用注册接口 请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001111', 'password': 'q123456', 'verifycode': 8888, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': None}
+2020-09-26 10:23:25,364 INFO [root] [test05_trust_all.py (test01_all:36] - 注册业务结果为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2020-09-26 10:23:25,364 INFO [root] [api_reg_login.py (api_login:66] - 正在调用登录接口 请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'q123456'}
+2020-09-26 10:23:25,420 INFO [root] [test05_trust_all.py (test01_all:43] - 登录业务结果为：{'status': 200, 'description': '登录成功'}
+2020-09-26 10:23:25,630 INFO [root] [test05_trust_all.py (test01_all:49] - 开户业务结果为：UserRegister OK
+2020-09-26 10:23:25,900 INFO [root] [test05_trust_all.py (test01_all:55] - 充值业务结果为：NetSave OK
+2020-09-26 10:23:26,129 INFO [root] [test05_trust_all.py (test01_all:61] - 投资业务结果为：InitiativeTender OK
+2020-09-26 10:23:26,393 INFO [root] [tools.py (clear_test_data:105] - sql执行结果：0
+2020-09-26 10:23:26,644 INFO [root] [tools.py (clear_test_data:110] - sql执行结果：0
+2020-09-26 10:23:27,134 INFO [root] [tools.py (clear_test_data:115] - sql执行结果：0
+2020-09-26 10:23:27,403 INFO [root] [tools.py (clear_test_data:120] - sql执行结果：0
+2020-09-26 10:23:34,756 INFO [root] [tools.py (clear_test_data:105] - sql执行结果：0
+2020-09-26 10:23:35,018 INFO [root] [tools.py (clear_test_data:110] - sql执行结果：0
+2020-09-26 10:23:35,251 INFO [root] [tools.py (clear_test_data:115] - sql执行结果：0
+2020-09-26 10:23:35,484 INFO [root] [tools.py (clear_test_data:120] - sql执行结果：0
+2020-09-26 10:23:35,484 INFO [root] [api_reg_login.py (__init__:9] - 初始化session对象： <requests.sessions.Session object at 0x10d5b8518>
+2020-09-26 10:23:35,485 INFO [root] [api_reg_login.py (api_img_code:29] - 正在调用注册获取图片验证码接口 请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/112312312
+2020-09-26 10:23:35,582 INFO [root] [api_reg_login.py (api_sms_code:40] - 正在调用注册获取「手机」验证码接口 请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': 8888, 'type': 'reg'}
+2020-09-26 10:23:35,636 INFO [root] [api_reg_login.py (api_register:55] - 正在调用注册接口 请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001111', 'password': 'q123456', 'verifycode': 8888, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': None}
+2020-09-26 10:23:35,700 INFO [root] [test05_trust_all.py (test01_all:36] - 注册业务结果为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2020-09-26 10:23:35,700 INFO [root] [api_reg_login.py (api_login:66] - 正在调用登录接口 请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'q123456'}
+2020-09-26 10:23:35,758 INFO [root] [test05_trust_all.py (test01_all:43] - 登录业务结果为：{'status': 200, 'description': '登录成功'}
+2020-09-26 10:23:35,963 INFO [root] [test05_trust_all.py (test01_all:49] - 开户业务结果为：UserRegister OK
+2020-09-26 10:23:36,219 INFO [root] [test05_trust_all.py (test01_all:55] - 充值业务结果为：NetSave OK
+2020-09-26 10:23:36,443 INFO [root] [test05_trust_all.py (test01_all:61] - 投资业务结果为：InitiativeTender OK
+2020-09-26 10:23:36,697 INFO [root] [tools.py (clear_test_data:105] - sql执行结果：0
+2020-09-26 10:23:36,973 INFO [root] [tools.py (clear_test_data:110] - sql执行结果：0
+2020-09-26 10:23:37,232 INFO [root] [tools.py (clear_test_data:115] - sql执行结果：0
+2020-09-26 10:23:37,490 INFO [root] [tools.py (clear_test_data:120] - sql执行结果：0
+2020-09-26 10:23:43,509 INFO [root] [tools.py (clear_test_data:105] - sql执行结果：0
+2020-09-26 10:23:43,745 INFO [root] [tools.py (clear_test_data:110] - sql执行结果：0
+2020-09-26 10:23:43,975 INFO [root] [tools.py (clear_test_data:115] - sql执行结果：0
+2020-09-26 10:23:44,232 INFO [root] [tools.py (clear_test_data:120] - sql执行结果：0
+2020-09-26 10:23:44,233 INFO [root] [api_reg_login.py (__init__:9] - 初始化session对象： <requests.sessions.Session object at 0x10eba0518>
+2020-09-26 10:23:44,233 INFO [root] [api_reg_login.py (api_img_code:29] - 正在调用注册获取图片验证码接口 请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/112312312
+2020-09-26 10:23:44,330 INFO [root] [api_reg_login.py (api_sms_code:40] - 正在调用注册获取「手机」验证码接口 请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': 8888, 'type': 'reg'}
+2020-09-26 10:23:44,381 INFO [root] [api_reg_login.py (api_register:55] - 正在调用注册接口 请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001111', 'password': 'q123456', 'verifycode': 8888, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': None}
+2020-09-26 10:23:44,442 INFO [root] [test05_trust_all.py (test01_all:36] - 注册业务结果为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2020-09-26 10:23:44,442 INFO [root] [api_reg_login.py (api_login:66] - 正在调用登录接口 请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'q123456'}
+2020-09-26 10:23:44,493 INFO [root] [test05_trust_all.py (test01_all:43] - 登录业务结果为：{'status': 200, 'description': '登录成功'}
+2020-09-26 10:23:44,687 INFO [root] [test05_trust_all.py (test01_all:49] - 开户业务结果为：UserRegister OK
+2020-09-26 10:23:44,942 INFO [root] [test05_trust_all.py (test01_all:55] - 充值业务结果为：NetSave OK
+2020-09-26 10:23:45,162 INFO [root] [test05_trust_all.py (test01_all:61] - 投资业务结果为：InitiativeTender OK
+2020-09-26 10:23:45,432 INFO [root] [tools.py (clear_test_data:105] - sql执行结果：0
+2020-09-26 10:23:45,676 INFO [root] [tools.py (clear_test_data:110] - sql执行结果：0
+2020-09-26 10:23:45,923 INFO [root] [tools.py (clear_test_data:115] - sql执行结果：0
+2020-09-26 10:23:46,205 INFO [root] [tools.py (clear_test_data:120] - sql执行结果：0
+2020-09-26 14:35:16,568 INFO [root] [tools.py (clear_test_data:105] - sql执行结果：0
+2020-09-26 14:35:16,837 INFO [root] [tools.py (clear_test_data:111] - sql执行结果：0
+2020-09-26 14:35:17,118 INFO [root] [tools.py (clear_test_data:117] - sql执行结果：0
+2020-09-26 14:35:17,365 INFO [root] [tools.py (clear_test_data:123] - sql执行结果：0
+2020-09-26 14:35:17,365 INFO [root] [api_reg_login.py (__init__:9] - 初始化session对象： <requests.sessions.Session object at 0x00000142CCCA6D68>
+2020-09-26 14:35:17,368 INFO [root] [api_reg_login.py (api_img_code:29] - 正在调用注册获取图片验证码接口 请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/112312312
+2020-09-26 14:35:17,488 INFO [root] [api_reg_login.py (api_sms_code:40] - 正在调用注册获取「手机」验证码接口 请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': 8888, 'type': 'reg'}
+2020-09-26 14:35:17,539 INFO [root] [api_reg_login.py (api_register:55] - 正在调用注册接口 请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001111', 'password': 'q123456', 'verifycode': 8888, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': None}
+2020-09-26 14:35:17,615 INFO [root] [test05_trust_all.py (test01_all:36] - 注册业务结果为：{'status': 200, 'data': {'isLogin': '1'}, 'description': '注册成功'}
+2020-09-26 14:35:17,615 INFO [root] [api_reg_login.py (api_login:66] - 正在调用登录接口 请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'q123456'}
+2020-09-26 14:35:17,668 INFO [root] [test05_trust_all.py (test01_all:43] - 登录业务结果为：{'status': 200, 'description': '登录成功'}
+2020-09-26 14:35:17,918 INFO [root] [test05_trust_all.py (test01_all:49] - 开户业务结果为：UserRegister OK
+2020-09-26 14:35:18,187 INFO [root] [test05_trust_all.py (test01_all:55] - 充值业务结果为：NetSave OK
+2020-09-26 14:35:18,402 INFO [root] [test05_trust_all.py (test01_all:61] - 投资业务结果为：InitiativeTender OK
+2020-09-26 14:35:18,658 INFO [root] [tools.py (clear_test_data:105] - sql执行结果：0
+2020-09-26 14:35:18,891 INFO [root] [tools.py (clear_test_data:111] - sql执行结果：0
+2020-09-26 14:35:19,138 INFO [root] [tools.py (clear_test_data:117] - sql执行结果：0
+2020-09-26 14:35:19,423 INFO [root] [tools.py (clear_test_data:123] - sql执行结果：0
